@@ -1,0 +1,69 @@
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -40px;
+    padding: 10px;
+    box-shadow: rgba(20, 185, 47, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    
+}
+.strike{
+    text-decoration: line-through;
+}
+.main{
+    border: 3px dashed rgb(0, 195, 255);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+    width: 30%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 40px;
+}
+.todofont{
+    font-size: 27px;
+}
+.input{
+    font-size: 25px;
+    width: 80%;
+}
+.addbutton{
+    width: 18%;
+    font-size: 25px;
+    /* background-color: yellowgreen; */
+    /* color: white; */
+    /* border-radius: 3px; */
+    /* border: 2px solid yellowgreen; */
+}
+.delete{
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+    color: red;
+}
+.showbutton{
+    font-size: 20px;
+    margin: 10px 0px 10px 0px;
+    border: 1px solid grey;
+    background-color: rgb(148, 60, 60);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.hr{
+    margin-left: -38px;
+    margin-bottom: 10px;
+}
+.left{
+    display: flex;
+    text-align: left;
+    text-decoration: line-through;
+    font-size: 25px;
+    /* border: 1px solid red; */
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: rgba(240, 6, 6, 0.35) 0px 5px 15px;
+}
